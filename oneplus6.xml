@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DEPRECATED / REFERENCE ONLY.
+
+  DO NOT use this manifest as the production OnePlus 6 ROM base.
+  It includes Evolution X / Lineage-derived default.xml content and therefore
+  cannot satisfy the project's AOSP-only runtime/build identity requirement.
+
+  Production bootstrap lives in Zhanfg/abk-op6-kernel on
+  prep/android17-gki-rom and starts from Google's official
+  android-17.0.0_r1 manifest plus local OP6 manifests.
+-->
 <manifest>
   <include name="default.xml" />
   <include name="snippets/oneplus6.xml" />
