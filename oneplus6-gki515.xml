@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DEPRECATED / REFERENCE ONLY.
+
+  This entry inherits the deprecated Evolution X / Lineage-derived OP6
+  manifest and must not be used as the production Android 17 base.
+
+  Use Zhanfg/abk-op6-kernel:prep/android17-gki-rom instead. Its bootstrap
+  initializes Google's official android-17.0.0_r1 userspace and a separate
+  Android common GKI 5.15 workspace.
+-->
 <manifest>
   <include name="oneplus6.xml" />
   <include name="snippets/kernel-5.15.xml" />
