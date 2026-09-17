@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Optional sources/tools. The notdefault group keeps normal repo sync clean. -->
+  <remote name="zhanfg-tools"
+          fetch="https://github.com/Zhanfg"
+          sync-c="true"
+          sync-j="4" />
+
+  <!-- Root/reference stack -->
+  <project path="tools/root/ReSukiSU"
+           name="ReSukiSU"
+           remote="zhanfg-tools"
+           revision="main"
+           groups="notdefault,bringup-tools" />
+  <project path="tools/root/ReSukiSU_Patches"
+           name="ReSukiSU_Patches"
+           remote="zhanfg-tools"
+           revision="main"
+           groups="notdefault,bringup-tools" />
+  <project path="tools/root/SukiSU-Ultra"
+           name="SukiSU-Ultra"
+           remote="zhanfg-tools"
+           revision="main"
+           groups="notdefault,bringup-tools" />
+  <project path="tools/root/SukiSU_patch"
+           name="SukiSU_patch"
+           remote="zhanfg-tools"
+           revision="main"
+           groups="notdefault,bringup-tools" />
+  <project path="tools/root/SukiSU_KernelPatch_patch"
+           name="SukiSU_KernelPatch_patch"
+           remote="zhanfg-tools"
+           revision="main"
+           groups="notdefault,bringup-tools" />
+  <project path="tools/root/KernelSU"
+           name="KernelSU"
+           remote="zhanfg-tools"
+           revision="main"
+           groups="notdefault,bringup-tools" />
+
+  <!-- Recovery / Qualcomm bring-up tools -->
+  <project path="tools/edl/edl"
+           name="edl"
+           remote="zhanfg-tools"
+           revision="master"
+           groups="notdefault,bringup-tools" />
+  <project path="tools/edl/oppo_decrypt"
+           name="oppo_decrypt"
+           remote="zhanfg-tools"
+           revision="master"
+           groups="notdefault,bringup-tools" />
+  <project path="tools/edl/qcom-ptool"
+           name="qcom-ptool"
+           remote="zhanfg-tools"
+           revision="main"
+           groups="notdefault,bringup-tools" />
+</manifest>
