@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="oneplus6.xml" />
+  <include name="snippets/kernel-5.15.xml" />
+</manifest>
