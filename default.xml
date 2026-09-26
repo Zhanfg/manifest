@@ -987,4 +987,10 @@
 
   <include name="snippets/evolution.xml" />
   <include name="snippets/lineage.xml" />
+  <!-- OnePlus Android 16 JamesDSP: source-built vendor soundfx effect. -->
+  <project path="external/jamesdsp-android"
+           name="Zhanfg/RootlessViPER4Android"
+           remote="github"
+           revision="refs/heads/oneplus-a16-hidl" />
+
 </manifest>
